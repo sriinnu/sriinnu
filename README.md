@@ -1,6 +1,6 @@
 ### Srinivas Pendela
 
-Vienna. Telugu. TypeScript, Go, Swift, Python.
+Vienna. Telugu. TypeScript, React, Go, Swift, Python.
 
 <a href="https://x.com/_sriinnu_">X</a> &middot; <a href="https://invisibledharma.substack.com">Substack</a> &middot; <a href="https://www.npmjs.com/~sriinnu">npm</a>
 
