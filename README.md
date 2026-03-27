@@ -6,46 +6,46 @@ Vienna. Telugu. TypeScript, Go, Swift, Python.
 
 ---
 
-I spend most of my time building tools I actually want to use. Some of them turned into real systems.
+I build tools I want to keep using.
 
-The thread running through everything: I don't think AI agents should be stateless request-response machines. They should remember, consolidate, predict, and have something resembling a point of view. So I started building that — and the architecture ended up borrowing heavily from Indian epistemology. Not as branding. The Nyaya school's six sources of knowledge became actual type categories for how memories get classified. Dream consolidation from Yoga Nidra became the literal model for between-session learning. It fit better than anything I found in the ML literature.
+Most of my work is around terminal software, developer tooling, and memory-oriented AI systems. I care about systems that can hold context across sessions and do useful work without turning every decision into a token burn.
 
-The LLM is a tool in these systems, not the brain. Most of the cognition runs on heuristics at zero token cost.
+Some of the architecture in these projects borrows from Indian epistemology where it helps clarify the model. That shows up in names and internal categories, but the goal is practical software rather than presentation.
 
-### Core Stack
+### Selected Projects
 
-**[Chitragupta](https://github.com/sriinnu/chitragupta)** — 17-package TypeScript monorepo. Memory, identity, attention, affect, intention, deliberation, self-evolution. CLI + HTTP server + MCP server + web dashboard. 12,000+ tests. This is the brain that everything else plugs into.
+**[Chitragupta](https://github.com/sriinnu/chitragupta)** - TypeScript monorepo for memory, identity, attention, intention, deliberation, and self-evolution. CLI, HTTP server, MCP server, and web dashboard. 12,000+ tests.
 
-**[Takumi](https://github.com/sriinnu/takumi)** — Terminal coding agent. Custom renderer (I didn't want React/Ink), streaming agent loop, multi-agent orchestration with planner/worker/validator roles. Talks to Chitragupta for memory and predictions.
+**[Takumi](https://github.com/sriinnu/takumi)** - Terminal coding agent with a custom renderer, streaming loop, and multi-agent orchestration. Uses Chitragupta for memory and prediction.
 
-**[PAKT](https://github.com/sriinnu/clipforge-PAKT)** — Lossless prompt compression. 30-50% fewer tokens on JSON, YAML, CSV, markdown. Every token should carry meaning, not syntax. Library + CLI + MCP server + Chrome extension + Tauri desktop app. On [npm](https://www.npmjs.com/package/@sriinnu/pakt).
+**[PAKT](https://github.com/sriinnu/clipforge-PAKT)** - Lossless prompt compression for JSON, YAML, CSV, and markdown. Library, CLI, MCP server, Chrome extension, desktop app. Available on [npm](https://www.npmjs.com/package/@sriinnu/pakt).
 
-**[Kosha Discovery](https://github.com/sriinnu/kosha-discovery)** — Finds every AI model and provider on your machine and cloud accounts. Anthropic, OpenAI, Google, Bedrock, Vertex, Ollama, OpenRouter. Library + CLI + HTTP API.
+**[Kosha Discovery](https://github.com/sriinnu/kosha-discovery)** - Finds AI models and providers across local machines and cloud accounts. Library, CLI, and HTTP API.
 
-### Work in Progress
+### In Progress
 
-**[Tring](https://github.com/sriinnu/tring-cli)** — Cross-platform messaging CLI in Go. One JSON command surface for WhatsApp, Signal, and Telegram. SQLite-first, daemon mode, muting policies. Built because I wanted my agents to be able to send messages without me opening three apps.
+**[Tring](https://github.com/sriinnu/tring-cli)** - Cross-platform messaging CLI in Go for WhatsApp, Signal, and Telegram. SQLite-first, daemon mode.
 
-**[Harmon](https://github.com/sriinnu/harmon)** — Music session daemon. AI-compiled listening policies become deterministic constraints — tempo range, energy arcs, no-vocals filters, recency penalties. Daemon-first, Spotify integration, SSE streaming. TypeScript. Because playlists are too manual and radio is too random.
+**[Harmon](https://github.com/sriinnu/harmon)** - Music session daemon that turns listening rules into deterministic constraints. Spotify integration and SSE streaming.
 
-**[Whispr](https://github.com/sriinnu/whispr)** — Self-healing messaging daemon in Go. Signed command envelopes, replay protection, durable delivery queue, channel adapters for iMessage, Signal, Discord, Slack, Google Messages. The reliable delivery layer that Tring routes through.
+**[Whispr](https://github.com/sriinnu/whispr)** - Self-healing messaging daemon in Go with signed command envelopes, replay protection, durable delivery queues, and channel adapters.
 
-### Smaller Things
+### Other Projects
 
 | | |
 |---|---|
-| **[Helix](https://github.com/sriinnu/helix)** | CLI parsing framework for Swift. Property wrappers, validation, subcommands. |
-| **[Silo](https://github.com/sriinnu/Silo)** | Browser cookie extraction. Safari, Chrome, Firefox, Edge, Arc, Brave. Swift. |
-| **[LedgerFlow](https://github.com/sriinnu/LedgerFlow)** | Bills and receipts tracker. Append-only ledger, OCR, AI spending analysis. Python. |
-| **[Web Suddhi](https://github.com/sriinnu/web-suddhi)** | Browser extension. Ads, trackers, cookies, paywalls — gone. |
+| **[Helix](https://github.com/sriinnu/helix)** | CLI parsing framework for Swift. |
+| **[Silo](https://github.com/sriinnu/Silo)** | Browser cookie extraction for Safari, Chrome, Firefox, Edge, Arc, and Brave. Swift. |
+| **[LedgerFlow](https://github.com/sriinnu/LedgerFlow)** | Bills and receipts tracker with an append-only ledger, OCR, and spending analysis. Python. |
+| **[Web Suddhi](https://github.com/sriinnu/web-suddhi)** | Browser extension for removing ads, trackers, cookies, and paywalls. |
 | **[PortPilot](https://github.com/sriinnu/portpilot)** | macOS menu bar app to find and kill port processes. Swift. |
-| **[Kairos](https://github.com/sriinnu/kairos)** | Work hours tracker. Go. |
+| **[Kairos](https://github.com/sriinnu/kairos)** | Work hours tracker in Go. |
 | **[Command Relay](https://github.com/sriinnu/command-relay)** | Bi-directional tmux bridge for remote terminal streaming. |
 
 ### Writing
 
-I also write about dharma and inner life at **[Invisible Dharma](https://invisibledharma.substack.com)**. Different voice, same person. Quiet lessons from a noisy life.
+I write at **[Invisible Dharma](https://invisibledharma.substack.com)**. Mostly dharma, inner life, and whatever survives contact with ordinary life.
 
 ---
 
-*Every module in Chitragupta carries a Sanskrit name that maps to its cognitive function. Smriti is memory. Swapna is dream consolidation. Buddhi is intelligence. Scarlett is health monitoring (okay, not all of them are Sanskrit). Externally, everything speaks English.*
+Most of the internals in Chitragupta have Sanskrit names that map to their function. Externally, everything stays in English.
