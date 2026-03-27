@@ -28,8 +28,6 @@ Some of the architecture in these projects borrows from Indian epistemology wher
 
 **[Harmon](https://github.com/sriinnu/harmon)** - Music session daemon that turns listening rules into deterministic constraints. Spotify integration and SSE streaming.
 
-**Whispr** (private) - Self-healing messaging daemon with signed command envelopes, durable queues, retries, and multi-channel delivery adapters.
-
 ### Other Projects
 
 | | |
