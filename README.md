@@ -28,6 +28,8 @@ Some of the architecture in these projects borrows from Indian epistemology wher
 
 **[Harmon](https://github.com/sriinnu/harmon)** - Music session daemon that turns listening rules into deterministic constraints. Spotify integration and SSE streaming.
 
+**wooosh** (private) - Privacy-first peer-to-peer messaging across Bluetooth, LAN, and the internet, built on a shared Rust core.
+
 ### Other Projects
 
 | | |
