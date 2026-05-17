@@ -97,14 +97,7 @@ Developer work is becoming agentic, but the stack around agents is still mostly 
 - **[Web Suddhi](https://github.com/sriinnu/web-suddhi)** <a href="https://github.com/sriinnu/web-suddhi/stargazers"><img alt="Web Suddhi stars" src="https://img.shields.io/github/stars/sriinnu/web-suddhi?style=flat-square&amp;label=stars&amp;color=35d3e0" /></a> <a href="https://github.com/sriinnu/web-suddhi/forks"><img alt="Web Suddhi forks" src="https://img.shields.io/github/forks/sriinnu/web-suddhi?style=flat-square&amp;label=forks&amp;color=ffb86b" /></a> - browser extension for stripping ads, trackers, cookie banners, and paywalls.
 - **[JSON Zen](https://github.com/sriinnu/json-zen)** <a href="https://github.com/sriinnu/json-zen/stargazers"><img alt="JSON Zen stars" src="https://img.shields.io/github/stars/sriinnu/json-zen?style=flat-square&amp;label=stars&amp;color=35d3e0" /></a> <a href="https://github.com/sriinnu/json-zen/forks"><img alt="JSON Zen forks" src="https://img.shields.io/github/forks/sriinnu/json-zen?style=flat-square&amp;label=forks&amp;color=ffb86b" /></a> - cross-platform JSON toolkit for formatting, validating, fixing, converting, and transforming JSON.
 
-### Writing
-
-I write at **[Invisible Dharma](https://invisibledharma.substack.com)**: dharma, inner life, and whatever survives contact with ordinary life.
-
-Some internals borrow Sanskrit names when they make the model clearer. Externally, the work stays practical: ship the tool, make it useful, keep the poetry from getting in the way.
-
 <p align="center">
   <a href="https://x.com/_sriinnu_">X</a> &middot;
-  <a href="https://invisibledharma.substack.com">Invisible Dharma</a> &middot;
   <a href="https://github.com/sriinnu?tab=repositories">repositories</a>
 </p>
