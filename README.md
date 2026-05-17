@@ -20,7 +20,7 @@ The pinned repositories below are the public surface. This is the map behind the
 | Local control | **[PortPilot](https://github.com/sriinnu/portpilot)** |
 | Browser hygiene | **[Web Suddhi](https://github.com/sriinnu/web-suddhi)** |
 
-Private systems sit behind the public pins: memory, messaging, and local-first communication tools that stay closer to the workshop than the storefront.
+Chitragupta sits behind the public pins: the private memory core for agents, messaging, and local-first systems still closer to the workshop than the storefront.
 
 <p align="center">
   <a href="https://x.com/_sriinnu_">X</a>
