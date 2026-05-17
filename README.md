@@ -2,13 +2,13 @@
   <img src="./assets/profile-banner.png" alt="Srinivas Pendela - useful agents that remember" width="100%" />
 </p>
 
-I build memory-native developer tools: terminal agents, prompt compression, model discovery, observability, and local-first workflows.
+Memory-native developer tools for terminal agents, prompt compression, model discovery, observability, and local-first workflows.
 
-The bet is simple: useful agents are not just better chat boxes. They remember what matters, work close to the machine, and earn every bit of context they ask for.
+The bet is simple: useful agents are more than better chat boxes. They remember what matters, stay close to the machine, and earn every bit of context they ask for.
 
 ### Operating Thesis
 
-Developer work is becoming agentic, but the stack around agents is still mostly amnesic. I am building the missing layer around the agent: memory, identity, attention, intention, compression, discovery, observability, and the local workflows that make those pieces useful.
+Developer work is becoming agentic, but the stack around agents is still mostly amnesic. The missing layer is memory, identity, attention, intention, compression, discovery, observability, and the local workflows that make those pieces useful.
 
 | Layer | Systems |
 |---|---|
