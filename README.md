@@ -21,7 +21,7 @@ Developer work is becoming agentic, but the stack around agents is still mostly 
 ### Git Pulse
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/ffb86b/sriinnu" alt="Sriinnu's live GitHub contribution heatmap" width="100%" />
+  <img src="https://ghchart.rshah.org/b45309/sriinnu" alt="Sriinnu's live GitHub contribution heatmap" width="100%" />
 </p>
 
 ### Selected Systems
