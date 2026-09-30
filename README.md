@@ -1,27 +1,37 @@
 <p align="center">
-  <img src="./assets/profile-banner.png" alt="Srinivas Pendela - useful agents that remember" width="100%" />
+  <img src="./assets/profile-banner-2026-09.png" alt="Useful agents remember. Memory, identity, and governed execution. Local-first systems with provider choice." width="100%" />
 </p>
 
-Memory-native developer tools for terminal agents, prompt compression, model discovery, observability, and local-first workflows.
+I build local-first agent systems with memory, identity, and governed execution — and developer tools that make them useful.
 
-The bet is simple: useful agents are more than better chat boxes. They remember what matters, stay close to the machine, and earn every bit of context they ask for.
+The bet is simple: useful agents remember what matters, stay close to the machine, and earn every bit of context they ask for.
 
-### Operating Thesis
+**[Website](https://srinivas.dev/) · [Essays](https://srinivas.dev/writing/) · [Substack](https://whisperstolight.substack.com/)**
 
-Developer work is becoming agentic, but the stack around agents is still mostly amnesic. The missing layer is memory, identity, attention, intention, compression, discovery, observability, and the local workflows that make those pieces useful.
+### The architecture
 
-The pinned repositories below are the public surface. This is the map behind them.
+Chitragupta is the core engine for continuity, memory, routing, and governance. Vaayu is the assistant experience. AUriva brings them together; Takumi is a specialized coding executor.
 
-| Layer | GitHub pins |
+Chitragupta, AUriva, and Takumi are still in development. I write about the source architecture and its limits as I build them. Local-first means local memory and state, with local models supported and explicit routes to external providers when a task calls for them.
+
+### Public projects
+
+| Project | What it does |
 |---|---|
-| Agent runtime | **[Takumi](https://github.com/sriinnu/takumi)** |
-| Context economy | **[clipforge-PAKT](https://github.com/sriinnu/clipforge-PAKT)**, **[Kosha Discovery](https://github.com/sriinnu/kosha-discovery)** |
-| Agent observability | **[Tokmeter](https://github.com/sriinnu/tokmeter)** |
-| Local control | **[PortPilot](https://github.com/sriinnu/portpilot)** |
-| Browser hygiene | **[Web Suddhi](https://github.com/sriinnu/web-suddhi)** |
+| **[PAKT](https://github.com/sriinnu/clipforge-PAKT)** | Lossless-first prompt compression for structured data. L1–L3 round-trip byte-for-byte; lossy L4 is opt-in. Savings depend on the input. |
+| **[Kosha Discovery](https://github.com/sriinnu/kosha-discovery)** | AI model, credential, and pricing discovery across local and cloud providers. |
+| **[Runic](https://github.com/sriinnu/Runic)** | AI usage, quota signals, reset windows, and cost estimates in the macOS menubar. |
+| **[Tokmeter](https://github.com/sriinnu/tokmeter)** | Token and cost observability for agent workflows. |
+| **[PortPilot](https://github.com/sriinnu/portpilot)** | Local port inspection and process control. |
+| **[Web Suddhi](https://github.com/sriinnu/web-suddhi)** | Browser cleanup and hygiene. |
 
-Chitragupta sits behind the public pins: the private memory core for agents, messaging, and local-first systems still closer to the workshop than the storefront.
+### Notes from the workshop
 
-<p align="center">
-  <a href="https://x.com/_sriinnu_">X</a>
-</p>
+Names rooted in the Vedic world. Engineering that has to stand on its own.
+
+I write about agent memory, the difference between remembering and obeying, and the work of turning an architecture into something dependable.
+
+- [The Daemon That Sleeps: Nidra and Swapna](https://whisperstolight.substack.com/p/the-daemon-that-sleeps-nidra-and) — sleep cycles, session logs, and the guarded daemon path.
+- [Essays on memory and agent systems](https://srinivas.dev/writing/) — source-backed notes from the workshop.
+
+[Follow the writing on Substack](https://whisperstolight.substack.com/) · [X](https://x.com/_sriinnu_)
