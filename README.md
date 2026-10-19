@@ -6,7 +6,7 @@ I build local-first agent systems with memory, identity, and governed execution 
 
 The bet is simple: useful agents remember what matters, stay close to the machine, and earn every bit of context they ask for.
 
-**[Website](https://srinivas.dev/) · [Writing](https://srinivas.dev/writing/) · [Substack](https://whisperstolight.substack.com/) · [X](https://x.com/_sriinnu_)**
+**[Website](https://srinivas.dev/) · [Writing](https://srinivas.dev/writing/) · [Substack](https://whisperstolight.substack.com/) · [X](https://x.com/_sriinnu_) · [Sponsor](https://github.com/sponsors/sriinnu)**
 
 ### The architecture
 
@@ -32,3 +32,7 @@ Names rooted in the Vedic world. Engineering that has to stand on its own.
 I write about agent memory, the difference between remembering and obeying, and the work of turning an architecture into something dependable.
 
 - [The Daemon That Sleeps: Nidra and Swapna](https://whisperstolight.substack.com/p/the-daemon-that-sleeps-nidra-and) — sleep cycles, session logs, and the guarded daemon path.
+
+### Support
+
+Everything public here is open source. If any of it saves you time or money, you can back the work through [GitHub Sponsors](https://github.com/sponsors/sriinnu) or [Buy Me a Coffee](https://buymeacoffee.com/sriinnu).
