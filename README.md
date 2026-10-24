@@ -10,9 +10,9 @@ The bet is simple: useful agents remember what matters, stay close to the machin
 
 ### The architecture
 
-Chitragupta is the core engine for continuity, memory, routing, and governance. Vaayu is the assistant experience. AUriva brings them together; Ribhu is a specialized coding executor.
+Chitragupta is the core engine for continuity, memory, routing, and governance. Vaayu is the personal assistant built on top of it. AUriva brings them together; Ribhu is a specialized coding executor.
 
-Chitragupta, AUriva, and Ribhu are still in development. I write about the architecture and its limits as I build them. Local-first means local memory and state, with local models supported and explicit routes to external providers when a task calls for them.
+Chitragupta, Vaayu, AUriva, and Ribhu are still in development. I write about the architecture and its limits as I build them. Local-first means local memory and state, with local models supported and explicit routes to external providers when a task calls for them.
 
 ### Public projects
 
