@@ -2,7 +2,7 @@
   <img src="./assets/profile-banner-2026-09.png" alt="Useful agents remember. Memory, identity, and governed execution. Local-first systems with provider choice." width="100%" />
 </p>
 
-I build local-first agent systems with memory, identity, and governed execution — and developer tools that make them useful.
+I build local-first agent systems with memory, identity, and governed execution — and developer tools that make them practical.
 
 The bet is simple: useful agents remember what matters, stay close to the machine, and earn every bit of context they ask for.
 
@@ -12,7 +12,7 @@ The bet is simple: useful agents remember what matters, stay close to the machin
 
 Chitragupta is the core engine for continuity, memory, routing, and governance. Vaayu is the assistant experience. AUriva brings them together; Ribhu is a specialized coding executor.
 
-Chitragupta, AUriva, and Ribhu are still in development. I write about the source architecture and its limits as I build them. Local-first means local memory and state, with local models supported and explicit routes to external providers when a task calls for them.
+Chitragupta, AUriva, and Ribhu are still in development. I write about the architecture and its limits as I build them. Local-first means local memory and state, with local models supported and explicit routes to external providers when a task calls for them.
 
 ### Public projects
 
